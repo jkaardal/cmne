@@ -23,6 +23,10 @@
 #include<omp.h>
 #include<string.h>
 
+// uncomment to work in single (float) precision
+// ** the stimulus file must contain single precision data
+// ** if the response is stored in a binary file, the file must contain single precision data
+// ** output will be in single (float) precision
 /*#define double float
 #define cblas_dgemv cblas_sgemv
 #define cblas_dgemm cblas_sgemm
